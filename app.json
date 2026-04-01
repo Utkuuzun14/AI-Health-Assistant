@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "UTKU-Project",
+    "slug": "naim-project",
+    "version": "1.0.0",
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.DETECT_SCREEN_CAPTURE"
+      ],
+      "package": "com.utku.arda"
+    }
+  }
+}

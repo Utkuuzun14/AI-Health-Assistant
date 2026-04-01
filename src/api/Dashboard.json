@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "iteration_weight": "World Record (250kg)",
+    "feature": "Health Dashboard",
+    "tags": ["sdui", "health", "boss-level"]
+  },
+  "layout": {
+    "type": "scrollView",
+    "props": {
+      "style": "container",
+      "accessibilityLabel": "Health Dashboard Scroll View"
+    },
+    "children": [
+      {
+        "type": "header",
+        "props": {
+          "title": {
+            "en": "U.T.K.U. Health",
+            "tr": "U.T.K.U. Sağlık"
+          },
+          "accessibilityRole": "header",
+          "accessibilityLabel": "Main Header"
+        }
+      },
+      {
+        "type": "weatherWidget",
+        "props": {
+          "style": "card",
+          "elevation": 1,
+          "accessibilityLabel": "Air Quality Widget",
+          "mockValue": "Air Quality: 42 AQI (Good)",
+          "mockPolen": "Pollen: Low"
+        }
+      },
+      {
+        "type": "card",
+        "props": {
+          "style": "aiCard",
+          "elevation": 2,
+          "accessibilityLabel": "Vitals Card"
+        },
+        "children": [
+          {
+            "type": "icon",
+            "props": {
+              "name": "HeartPulse",
+              "color": "primary",
+              "size": 32
+            }
+          },
+          {
+            "type": "text",
+            "props": {
+              "content": {
+                "en": "Pulse: 72 BPM\nFatigue: Low",
+                "tr": "Nabız: 72 BPM\nHalsizlik: Düşük"
+              },
+              "style": "title"
+            }
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "props": {
+          "action": "ACTION_AUTO_DOC",
+          "style": "primaryButton",
+          "accessibilityRole": "button",
+          "accessibilityHint": "Tıbbi mimari raporunuzu PDF'e yansıtın"
+        },
+        "children": [
+          {
+            "type": "icon",
+            "props": {
+              "name": "FileBox",
+              "color": "onPrimary",
+              "size": 20
+            }
+          },
+          {
+            "type": "text",
+            "props": {
+              "content": {
+                "en": "Generate Auto-Doc PDF",
+                "tr": "PDF Raporu Üret"
+              },
+              "style": "buttonText"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
