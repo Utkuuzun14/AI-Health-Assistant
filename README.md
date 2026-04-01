@@ -54,10 +54,7 @@ Uygulama, **veri odaklı (data-driven) UI** prensibiyle çalışır. Mesajlaşma
 
 | Ana Dashboard (v1.6) | Akıllı Chat (v1.8) | Sağlık Profili (v1.2) |
 | :---: | :---: | :---: |
-| ![Dashboard](<img width="475" height="780" alt="Ekran görüntüsü 2026-04-01 165628" src="https://github.com/user-attachments/assets/a8be5191-616f-47b5-afb1-e7f8f75179aa" />
-) | ![Chat](<img width="476" height="748" alt="Ekran görüntüsü 2026-04-01 165205" src="https://github.com/user-attachments/assets/3f3c9137-2f72-4fe4-bc5e-5a7f9008a9bb" />
-) | ![Profile](<img width="475" height="748" alt="Ekran görüntüsü 2026-04-01 165223" src="https://github.com/user-attachments/assets/8e4dc9c9-9aba-4029-92b4-9a640a11281c" />
-) |
+| <img src="https://github.com/user-attachments/assets/a8be5191-616f-47b5-afb1-e7f8f75179aa" width="300" alt="Ana Dashboard" /> | <img src="https://github.com/user-attachments/assets/3f3c9137-2f72-4fe4-bc5e-5a7f9008a9bb" width="300" alt="Akıllı Chat" /> | <img src="https://github.com/user-attachments/assets/8e4dc9c9-9aba-4029-92b4-9a640a11281c" width="300" alt="Sağlık Profili" /> |
 
 ---
 
